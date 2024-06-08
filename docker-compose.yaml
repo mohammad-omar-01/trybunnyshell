@@ -1,0 +1,11 @@
+services:
+  backend:
+    image: omarmohammad01/tredooback:backend-v1
+    ports:
+      - "43309:43309"
+  frontend:
+    image: omarmohammad01/tredooback:frontend-v1
+    ports:
+      - "80:3000"
+  redis:
+    image: "redis:alpine"
