@@ -4,6 +4,6 @@ services:
     ports:
       - "80:43309"
   frontend:
-    image: omarmohammad01/tredooback:frontend-v3
+    image: omarmohammad01/tredooback:frontend-v4
     ports:
       - "80:3000"
